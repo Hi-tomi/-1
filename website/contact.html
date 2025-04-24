@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25.09.2021</title>
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-wrapper">
+            <div class="header-flex element-animation">
+                <img src="./img/web-logo.png" class="web-logo">
+                <nav class="comp-nav">
+                    <a href="./index.html" class="active-link">Home</a>
+                    <a href="./catalog.html">Catalog</a>
+                    <a href="./aboutus.html">About us</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+                <nav class="mobile-nav">
+                    <a href="./index.html"><i class="fas fa-home"></i> </a>
+                    <a href="./catalog.html"><i class="fas fa-shopping-bag"></i></a>
+                    <a href="./aboutus.html"><i class="fas fa-users"></i></a>
+                    <a href="./contact.html"><i class="fas fa-id-card"></i></a>
+                </nav>
+            </div>
+        </div>
+</header>
+    <section id="contact">
+        <div class="qa-wrapper">
+            <div class="container">
+                <div class="item element-animation">
+                    <input class="input" type="checkbox" id="item1" />
+                    <label class="title" for="item1">Есть ли скидки именинникам?</label>
+                    <div class="text">
+                        <p>Скидка именинникам 21%. Подарок закладка и купон 2100 бонусов</p>
+                    </div>
+                </div>
+                <div class="item element-animation">
+                    <input class="input" type="checkbox" id="item2" />
+                    <label class="title" for="item2">Сколько дней занимает доставка?</label>
+                    <div class="text">
+                        <p>
+                            Доставка почтой занимает в среднем 5-7 дней. Стоимость варьируется 
+                            в зависимости от веса и размера посылки. Возможна отправка курьерскими 
+                            компаниями по всему Казахстану. Есть авиа доставка 1-2 дня до квартиры.
+                        </p>
+                    </div>
+                </div>
+                <div class="item element-animation">
+                    <input class="input" type="checkbox" id="item3" />
+                    <label class="title" for="item3">Заказ не пришел или товар бракованный. Что делать?</label>
+                    <div class="text">
+                        <p>
+                            В большинстве случаев делаем обмен 
+                            на аналогичный. Или же возврат денег
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="login">
+            <div id="log">
+          <div class="login-title element-animation">
+              <h1>welcome</h1>
+          </div>
+      
+          <div class="login-form element-animation">
+            <form id="login-form">
+              <i class="far fa-envelope"></i>
+              <input
+                type="text"
+                name="email"
+                class="form-login"
+                placeholder="Your email"
+                required
+              />
+              <br />
+              <i class="fas fa-key"></i>
+              <input
+                type="password"
+                name="password"
+                class="form-login"
+                placeholder="Your password"
+                required
+                id="myPassword"
+              />
+      
+              <span class="eye" onclick="myFunc()">
+                <i class="far fa-eye" id="hide1"></i>
+                <i class="far fa-eye-slash" id="hide2"></i>
+              </span>
+              <br />
+              <button class="login-btn">LOGIN</button>
+            </form>
+          </div>
+        </div>
+        </div>
+        
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="inner">
+                <div class="footer-flex element-animation">
+                    <div class="description">
+                        <div class="footer-container">
+                           <img src="./img/web-logo.png" alt="">
+                           <p>
+                               We do not just sell books, but share our customers' love for reading.
+                           </p>
+                           <p>
+                               ©Hitomi Ltd 2030. All rights reserved.
+                            </p>
+                            <div class="icon">
+                                <a htef="https://www.instagram.com/azhar_t.zh/" title="azhar_t.zh"> <i class="fab fa-instagram"></i> </a>
+                                <a href="https://github.com/Hi-tomi"> <i class="fab fa-github"></i> </a>
+                                <a href="https://discord.gg/v3qXrAyZaX"> <i class="fab fa-discord"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <div class="footer-container">
+                            <h2>Bookstore</h2>
+                            <ul>
+                            <li>About us</li>
+                            <li>Catalog</li>
+                            <li>Catalog</li>
+                            <li>Main</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                  <div class="links">
+                    <div class="footer-container">
+                        <h2>Region</h2>
+                        <ul>
+                        <li>Kazakhstan</li>
+                        <li>Russia</li>
+                        <li>America</li>
+                        <li>Korea</li>
+                        <li>Japan</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/d65c01b75a.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
